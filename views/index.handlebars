@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="jumbotron" id="pageHeader">
+        <h1 class="text-center">Eat Da Burger!</h1>
+        <p class="text-center">GOOD food is good Mood!!!</p>
+        
+    </div><!-- /jumbotron -->
+
+    <div class="row">
+        {{!-- burger which are not eaten --}}
+        <div class="col-lg-4">
+            <div class="card text-white mb-3 bg-left">
+                <h2 class="text-center">Eat the burgers</h2>
+                <hr>
+                <ul class="list-group ml-5">
+                    {{#each burgers}}
+                    {{#unless devoured}}
+                    {{> burgers/burger-block devoured=true}}
+                    {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card text-white mb-3 bg-left">
+                <form class="create-form">
+                    <div class="form-group">
+                        <label for="newburger"></label>Order your own burger you like to have:</label><br>
+                        <input type="text" id="newburger" name="burger_name">
+                        <button type="submit" class="btn btn-danger" id="addburger">Add burger</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {{!-- burger which are eaten --}}
+        <div class="col-lg-4">
+            <div class="card text-white mb-3 bg-right">
+                <h2 class="text-white text-center">Tasty !!!</h2>
+                <hr>
+                <ul class="list-group">
+                    {{#each burgers}}
+                    {{#if devoured}}
+                    {{> burgers/burger-block devoured=false}}
+                    {{/if}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
