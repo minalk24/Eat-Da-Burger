@@ -1,0 +1,39 @@
+body {
+    font-family: cursive;
+    font-size: 23px; 
+     background-image: url(../img/bg3.jpeg);  
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#addburger{
+    margin:20px;
+}
+.bg-left{
+    background-color: black;
+    opacity: 0.7; 
+    }
+    .bg-left .create-form .form-group{
+        margin: 10px;
+        text-align:center;
+    }
+    
+    .bg-right{
+        background-color: black;
+        opacity: 0.7; 
+        padding-left: 20px;
+    }
+    .change-devour{
+        margin-bottom:5px;
+        border-radius:25px;
+    }
+
+#pageHeader{
+    opacity: 0.5; 
+    font-weight: bolder; 
+    color:black;
+    background-image: url(../img/bgsmall1.png);  
+    background-repeat: no-repeat;
+    padding:80px 30px;
+}
+
+
