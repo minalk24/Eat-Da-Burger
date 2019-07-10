@@ -10,6 +10,10 @@ Your app will store every burger in a database, whether devoured or not.
 
 [Demo link of Eat-Da-Burger](https://eatdayummyburger.herokuapp.com/)
 
+## Image
+
+![Eat-Da-Burger App Image](eatdaburger.png)
+
 ## Frontend 
 * HTML
 * CSS
