@@ -8,21 +8,21 @@ Your app will store every burger in a database, whether devoured or not.
 
 ## Demo
 
-The demo of the Eat Da Burger application can be found [here]().
+[Demo link of Eat-Da-Burger](https://eatdayummyburger.herokuapp.com/)
 
 ## Frontend 
 * HTML
 * CSS
-* Bootstrap (http://getbootstrap.com/)
+* [Bootstrap](http://getbootstrap.com/)
 * Javascript
-* jQuery (https://jquery.com/)
-* Handlebars (http://handlebarsjs.com/)
+* [jQuery](https://jquery.com/)
+* [Handlebars](http://handlebarsjs.com/)
 
 ## Backend 
-* Node.js (https://nodejs.org/en/)
-* MySQL (https://www.mysql.com/)
-* Express (http://expressjs.com/)
-* ORM - Object Relational Mapping (https://en.wikipedia.org/wiki/Object-relational_mapping)
+* [Node.js](https://nodejs.org/en/)
+* [MySQL](https://www.mysql.com/)
+* [Express](http://expressjs.com/)
+* [ORM - Object Relational Mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)
 
 
 
